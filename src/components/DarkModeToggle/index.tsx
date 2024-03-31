@@ -28,7 +28,7 @@ const ThemeSwitch = () => {
             <p>Dark Mode</p>
           </button>
         ) : (
-          <button className="bg-sky-200 hover:bg-sky-300 transition-colors duration-300 text-orange-700 dark:bg-slate-700 rounded-2xl flex items-center gap-2 p-3" onClick={() => setTheme('dark')}>
+          <button className="bg-sky-200 hover:bg-sky-300 transition-colors duration-300 text-orange-700 rounded-2xl flex items-center gap-2 p-3" onClick={() => setTheme('dark')}>
             <div>
               <IoIosPartlySunny />
             </div>
